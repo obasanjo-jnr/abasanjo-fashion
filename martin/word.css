@@ -1,0 +1,150 @@
+/* General Body Styling */
+body {
+    background-image: url('./pexels-leif-blessing-22994545-7001092\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Heading Section */
+.intro h1 {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    border: 5px solid goldenrod;
+    width: 90%;
+    margin: 0 auto 20px;
+    padding: 20px;
+}
+
+/* Product Section */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+header {
+    background-color: whitesmoke;
+    border: 3px solid purple;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.logocontainer {
+    margin: 15px;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: black;
+    font-family: cursive
+    
+    
+}
+
+.links > a:hover {
+    color: aqua;
+}
+.sections {
+    text-align: center;
+}
+
+
+/* Card Styling */
+.card {
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent; /* Remove background color */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale up the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+/* Card Image Styling */
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth image transition */
+}
+
+.card:hover img {
+    transform: scale(1.05); /* Slightly scale up the image */
+}
+
+/* Polaroid Styling */
+.polaroid {
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent; /* Remove background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.polaroid:hover {
+    transform: scale(1.05); /* Slightly scale up the polaroid */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.polaroid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Smooth image transition */
+}
+
+.polaroid:hover img {
+    transform: scale(1.05); /* Slightly scale up the image */
+}
+
+.polaroid .container {
+    padding: 10px;
+    background-color: transparent; /* Remove background color */
+    color: black; /* Optional: adjust text color */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.polaroid:hover .container {
+    background-color: transparent; /* Ensure no background color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .polaroid {
+        max-width: 90%;
+    }
+ 
+}
+
+.logo-image {
+    height: 100px; /* Adjust the height to your desired size */
+    width: auto;   /* Keep the aspect ratio */
+    background-color: white;
+}

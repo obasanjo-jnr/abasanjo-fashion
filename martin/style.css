@@ -1,0 +1,58 @@
+body {
+    background-image: url(./hhddddttttoooo.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    border: 5px solid goldenrod; 
+    border-radius: 70px;
+    margin-top: 500px;
+    width: 90%;
+    margin-left: 90px;
+}
+header {
+    background-color: whitesmoke;
+    border: 3px solid purple;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.logocontainer {
+    margin: 15px;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: black;
+    font-family: cursive
+    
+    
+}
+
+.links > a:hover {
+    color: aqua;
+}
+.sections {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
